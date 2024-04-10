@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-classloader-issue
+  datasource:
+    username: scott
+    password: scott
+    url: jdbc:oracle:thin:@//localhost:1521/ORCLPDB
+  jpa:
+    open-in-view: false
+logging:
+  level:
+    com.github.bilak: DEBUG
